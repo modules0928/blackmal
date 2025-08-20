@@ -8,4 +8,4 @@ def ip_grabber():
     geolocation = requests.get(f'http://ip-api.com/json/{ip_t}').text
     return geolocation
 
-print(ip_graber())
+print(ip_grabber())
